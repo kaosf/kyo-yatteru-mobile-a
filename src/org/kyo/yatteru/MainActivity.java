@@ -32,4 +32,10 @@ public class MainActivity extends Activity {
     return super.onKeyDown(keyCode, event);
   }
 
+  @Override
+  protected void onResume() {
+    super.onResume();
+    wv.reload();
+  }
+
 }

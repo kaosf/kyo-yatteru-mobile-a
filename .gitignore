@@ -8,3 +8,5 @@ Thumbs.db
 bin
 gen
 local.properties
+build.properties
+ant.properties
